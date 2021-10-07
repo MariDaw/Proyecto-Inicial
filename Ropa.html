@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    }
+    #contenedor {
+        width: 1350px;
+        height: 1500px;
+        background: white;
+        margin: 0px auto;
+        border: 1px solid #000;
+    }
+    #cabeza {
+        width: 1280px;
+        height: 300px;
+        background:url(logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 30px;
+        border: 1px solid #000;
+
+    }
+    #navegacion {
+        width: 1280px;
+        height: 50px;
+        background: #F2508B;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #000;
+
+    }
+    #izq {
+        width: 1280px;
+        height: 800px;
+        background:white;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #000;
+        float: left;
+
+    }
+    #der {
+        width: 00px;
+        height: 0px;
+        background: white;
+        margin-top: 10px;
+        border: 0px solid #000;
+        float: right;
+        margin-right: 30px;
+
+    }
+    #pie {
+        width: 1280px;
+        height: 300px;
+        background: white;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #000;
+        float: left;
+
+    }
+    #lista1 {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            background-color: #0000;
+            margin-top: 15px;
+            margin-left: 210px;
+    }
+
+    #lista1 li {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #F2508B;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+
+    }
+    #lista1 li a {
+        text-decoration: none;
+    }
+    h1 {
+        font-family: 'Stick No Bills', sans-serif;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #boton {
+        padding: 20px;
+        padding-top: 30px;
+
+    }
+    #pictures {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+    .redes {
+        height: 100vh;
+        margin-left: 900px;
+        margin-top: 200px;
+        align-items: center;
+        justify-content: right;
+    }
+    .redes ul li {
+        display: inline-block;
+        margin: 5px;
+        width: 50px;
+        text-align: center;
+    }
+    .redes ul li a {
+        display: block;
+        padding: 0 1px;
+        background: #333;
+        color: white;
+        line-height: 50px;
+        font-size: 18px;
+
+    }
+
+    </style>
+</head>
+<body>
+<div id="contenedor">
+    <div id="cabeza">
+        <div id="boton">
+            <a href="Login.html"><p align="right"> <input type="button" value="Login" /> </p></a>
+
+        </div>
+    </div>
+    <div id="navegacion">
+        <ul id="lista1">
+            <li><a href="Diseñadores.html" style="color:black" style="text-decoration:none">Diseñadores</a></li>
+            <li><a href="Ropa.html" style="color:black" style="text-decoration:none">Ropa</a></li>
+            <li><a href="Promociones.html" style="color:black" style="text-decoration:none">Promociones</a></li>
+            <li><a href="Novedades.html" style="color:black" style="text-decoration:none">Novedades</a></li>
+            <li><a href="Contacto.html" style="color:black" style="text-decoration:none">Contacto</a></li>
+            <li><a href="Login.html" style="color:black">LogIn</a></li>
+        </ul>
+
+    </div>
+    <div id="izq">
+        <h1>ROPA</h1>
+        <div id="pictures">
+            <table>
+                <tr>
+                    <td><a href="Link_ropa.html"><img src="ropa1.jpg" width=250px height=300px ></a></td>
+                    <td><img src="ropa2.jpg" width=250px height=300px></td>
+                    <td><img src="ropa3.jpg" width=250px height=300px></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Lorem ipsum</b></td>
+                    <td align="center"><b>Lorem ipsum</b></td>
+                    <td align="center"><b>Lorem ipsum</b></td>
+
+                </tr>
+                <tr>
+                    <td align="center"><b>$$$$</b></td>
+                    <td align="center"><b>$$$$</b></td>
+                    <td align="center"><b>$$$$</b></td>
+
+                </tr>
+                <tr>
+                    <td align="center">Tiene link en la foto</td>
+                    <td align="center"><b></b></td>
+                    <td align="center"><b></b></td>
+
+                </tr>
+                </table>
+        </div>
+    </div>
+    <div id="der"></div>
+    <div id="pie">
+        <div class="redes">
+            <ul>
+                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

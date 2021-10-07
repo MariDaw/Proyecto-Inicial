@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+
+    }
+    #contenedor {
+        width: 100%;
+        height: 1000px;
+        background: white;
+        margin: 0px auto;
+        border: 1px solid #0000;
+    }
+    #cabeza {
+        width: 1280px;
+        height: 300px;
+        background:url(logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 30px;
+        border: 2px solid #0000;
+
+    }
+    #navegacion {
+        width: 1280px;
+        height: 50px;
+        background: #F2508B;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #0000;
+
+    }
+    #izq {
+        width: 640px;
+        height: 800px;
+        background:white;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #0000;
+        float: left;
+
+    }
+    #der {
+        width: 640px;
+        height: 400px;
+        background: yellowgreen;
+        margin-top: 10px;
+        border: 1px solid #0000;
+        float: left;
+
+    }
+    #pie {
+        width: 1280px;
+        height: 40px;
+        background: red;
+        margin-left: 30px;
+        margin-top: 10px;
+        border: 1px solid #0000;
+        float: left;
+
+    }
+    #lista1 {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            background-color: #0000;
+            margin-top: 15px;
+            margin-left: 210px;
+    }
+
+    #lista1 li {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #F2508B;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+
+    }
+    h1 {
+        font-family: 'Stick No Bills', sans-serif;
+    }
+
+
+    </style>
+</head>
+<body>
+<div id="contenedor">
+    <div id="cabeza"></div>
+    <div id="navegacion">
+        <ul id="lista1">
+            <li><a href="https://es.greenpeace.org/es/trabajamos-en/cambio-climatico/" style="color:black" >Diseñadores</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cambio_clim%C3%A1tico" style="color:black">Ropa</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cambio_clim%C3%A1tico" style="color:black">Promociones</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cambio_clim%C3%A1tico" style="color:black">Novedades</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Cambio_clim%C3%A1tico" style="color:black">Contacto</a></li>
+            <li><a href="Registro.html" style="color:black">LogIn</a></li>
+        </ul>
+        <!--<form name="b-search" action="http://search.blogger.com"/>
+        <input type="text" id="b-query" name="as_q" />
+        <input type="hidden" name="ie" value="UTF-8"/>
+        <input type="hidden" name="ui" value="blg" />
+        <input type="hidden" name="bl_url" value="file:///C:/Users/soriu/OneDrive/Escritorio/Proyecto%20Inicial/Indice.html" />
+        <input type="submit" name="Buscar" alt="Search This Blog" id="b-searchbtn" title="Search this blog with Google Blog Search" onclick="document.forms['b-search'].bl_url.value='file:///C:/Users/soriu/OneDrive/Escritorio/Proyecto%20Inicial/Indice.html'"/>
+        </form>-->
+
+
+    </div>
+    <div id="izq">
+        <h1>DISEÑADORES</h1>
+        <div id="pictures">
+        <img src="diseñador1.jpg" width=300px height=450px>
+        <img src="diseñador2.jpg" width=300px height=450px>
+        
+        </div>
+    </div>
+    <div id="der"></div>
+    <div id="pie"></div>
+</div>
+</body>
+</html>
